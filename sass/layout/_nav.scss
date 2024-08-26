@@ -85,7 +85,7 @@
 				}
 			}
 		}
-
+/* this breakpoint controls what a smaller nav bar would be */
 		@include breakpoint('<=small') {
 			display: none;
 
