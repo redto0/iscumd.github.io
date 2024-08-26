@@ -24,6 +24,32 @@
       </header>
 
       <!-- Nav -->
+       
+      <nav class="topnav" id="myTopnav">
+        <ul>
+        <li><a class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="current-teams.html">Current Projects</a></li>
+          <li><a href="past-teams.html">Past Projects</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="sponsors.html">Support</a></li>
+          </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+      
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+      <!-- old nav bar!
       <nav id="nav">
         <ul>
           <li><a class="active">Home</a></li>
@@ -33,8 +59,15 @@
           <li><a href="join.html">Join</a></li>
           <li><a href="sponsors.html">Support</a></li>
         </ul>
-      </nav>
-
+      </nav>  
+      <a class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="current-teams.html">Current Projects</a>
+        <a href="past-teams.html">Past Projects</a>
+        <a href="join.html">Join</a>
+        <a href="sponsors.html">Support</a>
+      -->
+      
       <!-- Main -->
       <div id="main">
         <!-- About -->
