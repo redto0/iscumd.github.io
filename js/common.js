@@ -20,11 +20,16 @@ async function splashtext() {
         "Home of Henry",
         "Robotic googly eye innovators",
         "Anderson connector enthusiasts",
-        "Creators of the autonomous Desert Bus",
         "Sometimes the things we build are smart",
         "Our karts race themselves",
-        "Go blue!",
+        "Go Blue!",
+        "Engineering solutions, not just robots",
+        "Robotics isn't a hobby, its a lifestyle",
+        "Automation with a human touch",
+        "Where every challenge is an opportunity",
         "Proud supporters of open source robotics",
+        "Hands-on Learning, Real World Impact",
+        "Education. Opportunity. Growth.",
         "We are the Dearborn difference™"
     ];
 
