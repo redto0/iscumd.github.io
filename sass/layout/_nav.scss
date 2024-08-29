@@ -46,7 +46,8 @@
 					@include vendor('transition', (
 						'font-size #{_duration(transition)} ease'
 					));
-					display: inline-block;
+					display: inline-grid
+					;
 					height: 2.25em;
 					line-height: 2.25em;
 					padding: 0 1.25em;
